@@ -1,7 +1,7 @@
 git add -A
 
 # 修改具体题目编号
-git commit -m ":memo: 38 solved"
+git commit -m ":hammer: init"
 
 git config --global http.sslVerify "false"
 git config --global --unset http.proxy
