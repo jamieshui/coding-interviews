@@ -4,19 +4,19 @@
 
 ## 栈
 
-| 题目                                                         | 难度 |
-| :----------------------------------------------------------- | ---- |
-| [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | 简单 |
-| [LeetCode 20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单 |
-| [LeetCode 94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 简单 |
-| [剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 与 LeetCode 155 主题相同 | 简单 |
-| [LeetCode 155. 最小栈](https://leetcode-cn.com/problems/min-stack/) | 简单 |
-| [LeetCode 103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等 |
-| [LeetCode 394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | 中等 |
-| [LeetCode 739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | 中等 |
-| [LeetCode 42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 困难 |
-| [LeetCode 84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | 困难 |
-| [LeetCode 85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难 |
+| 题目                                                         | 难度 | Solution                                                     |
+| :----------------------------------------------------------- | ---- | ------------------------------------------------------------ |
+| [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | 简单 | [JavaScript](./algorithm/01-data-structure/01-stack/01-yong-liang-ge-zhan-shi-xian-dui-lie-lcof/javascript-solution) |
+| [LeetCode 20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单 |                                                              |
+| [LeetCode 94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 简单 |                                                              |
+| [剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 与 LeetCode 155 主题相同 | 简单 |                                                              |
+| [LeetCode 155. 最小栈](https://leetcode-cn.com/problems/min-stack/) | 简单 |                                                              |
+| [LeetCode 103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等 |                                                              |
+| [LeetCode 394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | 中等 |                                                              |
+| [LeetCode 739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | 中等 |                                                              |
+| [LeetCode 42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 困难 |                                                              |
+| [LeetCode 84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | 困难 |                                                              |
+| [LeetCode 85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难 |                                                              |
 
 ## 队列
 
