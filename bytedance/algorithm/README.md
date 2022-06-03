@@ -6,12 +6,10 @@
 
 | 题目                                                         | 难度 | Solution                                                     |
 | :----------------------------------------------------------- | ---- | ------------------------------------------------------------ |
-| [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | 简单 | [JavaScript](./algorithm/01-data-structure/01-stack/01-yong-liang-ge-zhan-shi-xian-dui-lie-lcof/javascript-solution) |
-| [LeetCode 20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单 | [JavaScript](./algorithm/01-data-structure/01-stack/02-valid-parentheses/javascript-solution) |
-| [LeetCode 94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 简单 | [JavaScript](./algorithm/01-data-structure/01-stack/03-binary-tree-inorder-traversal/javascript-solution) |
-| [剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 与 LeetCode 155 主题相同 | 简单 | [JavaScript](./algorithm/01-data-structure/01-stack/04-bao-han-minhan-shu-de-zhan-lcof/javascript-solution) |
-| [LeetCode 155. 最小栈](https://leetcode-cn.com/problems/min-stack/) | 简单 |                                                              |
-| [LeetCode 103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等 |                                                              |
+| [剑指 Offer 09. 用两个栈实现队列](https://leetcode-cn.com/problems/yong-liang-ge-zhan-shi-xian-dui-lie-lcof/) | 简单 | [JavaScript](./01-data-structure/01-stack/01-yong-liang-ge-zhan-shi-xian-dui-lie-lcof/javascript-solution) |
+| [LeetCode 20. 有效的括号](https://leetcode-cn.com/problems/valid-parentheses/) | 简单 | [JavaScript](./01-data-structure/01-stack/02-valid-parentheses/javascript-solution) |
+| [LeetCode 94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 简单 | [JavaScript](./01-data-structure/01-stack/03-binary-tree-inorder-traversal/javascript-solution) |
+| [剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 与 LeetCode 155 主题相同 | 简单 | [JavaScript](./01-data-structure/01-stack/04-bao-han-minhan-shu-de-zhan-lcof/javascript-solution) |
 | [LeetCode 394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | 中等 |                                                              |
 | [LeetCode 739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | 中等 |                                                              |
 | [LeetCode 42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 困难 |                                                              |
@@ -20,12 +18,13 @@
 
 ## 队列
 
-| 题目                                                         | 难度 |
-| ------------------------------------------------------------ | ---- |
-| [LeetCode 933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/) | 简单 |
-| [LeetCode 199. 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | 中等 |
-| [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) 与 LeetCode 239 主题相同 | 困难 |
-| [LeetCode 239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | 困难 |
+| 题目                                                         | 难度 |                                                              |
+| ------------------------------------------------------------ | ---- | ------------------------------------------------------------ |
+| [LeetCode 933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/) | 简单 |                                                              |
+| [LeetCode 103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等 | [JavaScript](./01-data-structure/02-queue/02-binary-tree-zigzag-level-order-traversal/javascript-solution) |
+| [LeetCode 199. 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | 中等 |                                                              |
+| [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) 与 LeetCode 239 主题相同 | 困难 |                                                              |
+| [LeetCode 239. 滑动窗口最大值](https://leetcode-cn.com/problems/sliding-window-maximum/) | 困难 |                                                              |
 
 ## 链表
 
