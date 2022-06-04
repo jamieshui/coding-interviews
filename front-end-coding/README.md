@@ -8,4 +8,6 @@
 
 ## 1. [实现深拷贝与浅拷贝](./javascript/01-深拷贝与浅拷贝)
 
-## 2. [手写Promise](./javascript/02-手写Promise)
+## 2. [实现Promise](./javascript/02-基础版Promise)
+
+## 3. [实现防抖与节流](./javascript/03-防抖与节流)
