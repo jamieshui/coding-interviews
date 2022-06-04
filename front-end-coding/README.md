@@ -11,3 +11,5 @@
 ## 2. [实现Promise](./javascript/02-基础版Promise)
 
 ## 3. [实现防抖与节流](./javascript/03-防抖与节流)
+
+## 4. [数组去重](./javascript/04-数组去重)
