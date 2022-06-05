@@ -1,7 +1,7 @@
 git add -A
 
 # 修改具体题目编号
-git commit -m "front-end-coding javascript 04 completed"
+git commit -m "bytedance algorithm 07 && 01-data-structure 01-stack 06 solved"
 
 git config --global http.sslVerify "false"
 git config --global --unset http.proxy

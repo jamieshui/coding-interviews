@@ -11,7 +11,7 @@
 | [LeetCode 94. 二叉树的中序遍历](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | 简单 | [JavaScript](./01-data-structure/01-stack/03-binary-tree-inorder-traversal/javascript-solution) |
 | [剑指 Offer 30. 包含min函数的栈](https://leetcode-cn.com/problems/bao-han-minhan-shu-de-zhan-lcof/) 与 LeetCode 155 主题相同 | 简单 | [JavaScript](./01-data-structure/01-stack/04-bao-han-minhan-shu-de-zhan-lcof/javascript-solution) |
 | [LeetCode 394. 字符串解码](https://leetcode-cn.com/problems/decode-string/) | 中等 | [JavaScript](./01-data-structure/01-stack/05-decode-string/javascript-solution) |
-| [LeetCode 739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | 中等 |                                                              |
+| [LeetCode 739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | 中等 | [JavaScript](./01-data-structure/01-stack/06-daily-temperatures/javascript-solution) |
 | [LeetCode 42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 困难 |                                                              |
 | [LeetCode 84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | 困难 |                                                              |
 | [LeetCode 85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难 |                                                              |
