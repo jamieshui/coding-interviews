@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <script src="https://cdn.bootcss.com/vue/2.5.16/vue.js"></script><!-- 引入vue文件 -->
-    <div id="box">
-      <new-input v-bind:name.sync="name"></new-input>
-      {{name}}
-      <!-- 小胡子语法 -->
-      <input type="text" v-model="name" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <title>使用sync更改父级传值</title>
+   
+</head>
+<body>
+    <div id="test">
+ 
     </div>
     <script>
-      Vue.component("new-input", {
-        props: ["name"],
-        data: function () {
-          return {
-            newName: this.name,
-          };
-        },
-        template: `<label><input type="text" @keyup="changgeName"
-        v-model="newName" /> 你的名字：</label>`,
-        // 模板字符串
-        methods: {
-          changgeName: function () {
-            this.$emit("update:name", this.newName);
-          },
-        },
-        watch: {
-          name: function (v) {
-            this.newName = v;
-          },
-        },
-        //    监听
-      });
-
-      new Vue({
-        el: "#box",
-        //挂载实例
-        data: {
-          name: "nick",
-        },
-        //赋初始值
-      });
+         /*
+        在有些情况下，我们可能需要对一个 prop 进行“双向绑定”。不幸的是，真正的双向绑定会带来维护上的问题，因为子组件可以变更父组件，
+        且在父组件和子组件都没有明显的变更来源。Vue官网推荐以 "update:myPropName" 的模式触发事件取而代之。举个例子，在一个包含
+        title prop 的假设的组件中，我们可以用以下方法表达对其赋新值的意图：this.$emit('update:title', newTitle)
+        <text-document v-bind:title.sync="doc.title"></text-document>
+        */
+ 
+        Vue.component("ComponentA", {
+            props:["title"],
+            template:`
+            <div>
+                我是子节点
+                <button @click="handleClick">点击我改变父级Title</button>
+            </div>
+            `,
+            methods: {
+                handleClick() {
+                    this.count += 1;
+                    this.$emit("update:childTitle", this.title + this.count);
+                }
+            },
+            data() {
+                return {
+                    count: 0
+                }
+            },
+        })
+        
+        const app = new Vue({
+            el:"#test",
+            data:{
+                parentTitle:"我是父级title",
+            },
+            template:`
+            <div>
+                我是父级节点
+                <ComponentA :title="parentTitle" :childTitle.sync="parentTitle"></ComponentA>
+                {{parentTitle}}
+            </div>
+            `,
+        })
     </script>
-  </body>
+</body>
 </html>
-
