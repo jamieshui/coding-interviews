@@ -14,7 +14,7 @@
 | [LeetCode 739. 每日温度](https://leetcode-cn.com/problems/daily-temperatures/) | 中等 | [JavaScript](./01-data-structure/01-stack/06-daily-temperatures/javascript-solution) |
 | [LeetCode 42. 接雨水](https://leetcode-cn.com/problems/trapping-rain-water/) | 困难 | [JavaScript](./01-data-structure/01-stack/07-trapping-rain-water/javascript-solution) |
 | [LeetCode 84. 柱状图中最大的矩形](https://leetcode-cn.com/problems/largest-rectangle-in-histogram/) | 困难 | [JavaScript](./01-data-structure/01-stack/08-largest-rectangle-in-histogram/javascript-solution) |
-| [LeetCode 85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难 |                                                              |
+| [LeetCode 85. 最大矩形](https://leetcode-cn.com/problems/maximal-rectangle/) | 困难 | [JavaScript](./01-data-structure/01-stack/09-maximal-rectangle/javascript-solution) |
 
 ## 队列
 

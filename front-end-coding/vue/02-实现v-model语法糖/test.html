@@ -13,29 +13,25 @@
     <!-- text和textarea 元素使用value property 和 input事件 -->
     <!-- checkbox 和radio使用checked  property 和 change事件-->
     <!-- select 字段将value 作为prop 并将change 作为事件 -->
-    <!-- 注意：对于需要使用输入法(如中文、日文、韩文等)的语言，你将会发现v-model不会再输入法
+    <!-- 注意：对于需要使用输入法(如中文、日文、韩文等)的语言，你将会发现v-model不会在输入法
     组合文字过程中得到更新 -->
-    <!-- 再普通标签上 -->
+    <!-- 在普通标签上 -->
     <input v-model="sth" />  <!-- 这一行等于下一行 -->
-    <input v-bind:value="sth" v-on:input="sth = $event.target.value" />
-    <!-- 再组件上 -->
-    <currency-input v-model="price"></currentcy-input>
-        <!--上行代码是下行的语法糖
-         <currency-input :value="price" @input="price = arguments[0]"></currency-input>
-        --> 
-        <!-- 子组件定义 -->
-        <script>
-        Vue.component('currency-input', {
-         template: `
-          <span>
-           <input
-            ref="input"
-            :value="value"
-            @input="$emit('input', $event.target.value)"
-           >
-          </span>
-         `,
-         props: ['value'],
+    <!-- <input v-bind:value="sth" v-on:input="sth = $event.target.value" /> -->
+    <!-- 在组件上 -->
+    <!-- 父组件 -->
+    <aa-input v-model="aa"></aa-input>
+    <!-- 等价于 -->
+    <!-- <aa-input v-bind:value="aa" v-on:input="aa=$event.target.value"></aa-input> -->
+    <input v-bind:value="aa" v-on:input="onmessage">
+    <script>
+        Vue.component('aa-input', {
+            props: { value: aa, },
+            methods: {
+                onmessage(e){
+                    $emit('input', e.target.value)
+                }
+        }
         })  
     </script> 
 </body>
