@@ -20,7 +20,7 @@
 
 | 题目                                                         | 难度 |                                                              |
 | ------------------------------------------------------------ | ---- | ------------------------------------------------------------ |
-| [LeetCode 933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/) | 简单 |                                                              |
+| [LeetCode 933. 最近的请求次数](https://leetcode-cn.com/problems/number-of-recent-calls/) | 简单 | [JavaScript](./01-data-structure/02-queue/01-number-of-recent-calls/javascript-solution) |
 | [LeetCode 103. 二叉树的锯齿形层序遍历](https://leetcode-cn.com/problems/binary-tree-zigzag-level-order-traversal/) | 中等 | [JavaScript](./01-data-structure/02-queue/02-binary-tree-zigzag-level-order-traversal/javascript-solution) |
 | [LeetCode 199. 二叉树的右视图](https://leetcode-cn.com/problems/binary-tree-right-side-view/) | 中等 |                                                              |
 | [剑指 Offer 59 - I. 滑动窗口的最大值](https://leetcode-cn.com/problems/hua-dong-chuang-kou-de-zui-da-zhi-lcof/) 与 LeetCode 239 主题相同 | 困难 |                                                              |
